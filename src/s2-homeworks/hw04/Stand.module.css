@@ -1,13 +1,13 @@
 .stand {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
 }
 
 .inputs {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 10px;
 }
 
 .buttons {
