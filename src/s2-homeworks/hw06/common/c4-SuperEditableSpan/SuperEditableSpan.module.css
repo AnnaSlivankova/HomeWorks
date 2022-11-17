@@ -19,5 +19,9 @@
     border-radius: 5px;
 }
 
+input:focus {
+    outline: none;
+}
+
 .pen {
 }
