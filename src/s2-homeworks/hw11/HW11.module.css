@@ -2,7 +2,39 @@
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .number {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-right: 10px;
+    margin-left: 10px;
 }
+.slider :global .MuiSlider-thumb {
+    content: '';
+    box-sizing: border-box;
+    width: 18px;
+    height: 18px;
+    background: #FFFFFF;
+    border: 1px solid #00CC22;
+}
+
+.slider :global .MuiSlider-thumb::after {
+    width: 6px;
+    height: 6px;
+    background: #01CB22;
+    border: 1px solid;
+}
+
+.slider :global .MuiSlider-rail {
+    background: #8B8B8B;
+    border-radius: 10px;
+}
+
