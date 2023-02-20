@@ -18,6 +18,27 @@ html {
     color: var(--color);
 }
 
-.select {
-
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 70px;
+    margin-bottom: 6px;
+    color: inherit;
 }
+
+.select {
+    width: 171px;
+    height: 36px;
+    border: 1px solid #323232;
+    border-radius: 2px;
+
+    background-color: inherit;
+    color: inherit;
+}
+
+/*select::first-letter {*/
+/*    text-transform: uppercase;*/
+/*}*/
