@@ -50,6 +50,9 @@ const HW14 = () => {
         // setSearchParams(
         setSearchParams(find)
         //
+        // const newFind: {find?: string} = value ?  {find: value} : {}
+        // const {find, ...restQueries} =  Object.fromEntries(searchParams)
+        // setSearchParams({...newFind, ...restQueries})
     }
 
     useEffect(() => {
