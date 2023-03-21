@@ -3,7 +3,7 @@
 }
 
 .developer {
-
+text-transform: capitalize;
 }
 
 .techHeader {
@@ -16,12 +16,44 @@
 
 .row {
     display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+    height: 47px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    width: 610px;
+
+}
+
+.containerItems {
+    opacity: 50%;
 }
 
 .rowHeader {
+    margin-top: 36px;
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: capitalize;
+    height: 36px;
+    background-color: #E5E5E5;
+    width: 610px;
 }
 
 .loading {
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
